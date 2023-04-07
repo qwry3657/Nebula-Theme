@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NEBULA</string>
+    <string name="warning">Warning</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="nebula_logo">NEBULA Logo</string>
+    <string name="hey_there">Hey There!</string>
+    <string name="restart">Restart</string>
+    <string name="disable">Disable</string>
+    <string name="enable">Enable</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <queries>
+        <package android:name="com.maxmpz.audioplayer" />
+        <package android:name="code.name.monkey.retromusic" />
+        <package android:name="com.awedea.nyx" />
+        <package android:name="com.kapp.youtube.final" />
+        <package android:name="com.shadow.blackhole" />
+        <package android:name="in.krosbits.musicolet" />
+        <package android:name="com.google.android.youtube" />
+        <package android:name="com.google.android.apps.youtube.music" />
+        <package android:name="app.revanced.android.youtube" />
+        <package android:name="app.revanced.android.apps.youtube.music" />
+    </queries>
+
+    <application
+        android:name=".Nebula"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/derived_app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nebula">
+        
+
+        <receiver
+            android:name=".services.BootCompletedReceiver"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ui.Extras"
+            android:exported="false" />
+        <!-- <activity -->
+            <!-- android:name=".ui.bn" -->
+            <!-- android:exported="false" /> -->
+        <activity
+            android:name=".ui.Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MediaPlayer"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.FontPacks1"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".ui.WelcomePage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Nebula.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

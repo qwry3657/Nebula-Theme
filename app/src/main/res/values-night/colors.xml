@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="enable">#ffb597b6</color>
+    <color name="sa">#FF003A48</color>
+    <color name="rippleAccent">#1AFFFFFF</color>
+    <color name="colorBackground">#ff000000</color>
+    <color name="colorContainer">#ff7e00ff</color>
+    <color name="colorContainerOverlay">#ff44697e</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="textColorSecondary">#ffffffff</color>
+    <color name="colorBackground2">#14FFFFFF</color>
+    <color name="offStateColor2">#1AFFFFFF</color>
+    <color name="shadow">#40000000</color>
+    <color name="neumorph_outline_end">#c9d400fa</color>
+    <color name="neumorph_outline_start">#c900BCD4</color>
+    <color name="switch_track_layer">#B3000000</color>
+    <color name="splash_logo">#ff000000</color>
+</resources>

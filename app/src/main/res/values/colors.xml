@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFF44336</color>
+    <color name="sa">#FFD4F7FF</color>
+    <color name="enable">#ff44697e</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorAccent">#fff0b6d7</color>
+    <color name="colorAccentDark">#33000000</color>
+    <color name="colorAccentDarker">#33000000</color>
+    <color name="rippleAccent">#1A000000</color>
+    <color name="rippleDark">#33000000</color>
+    <color name="holo_blue_light">@android:color/holo_blue_light</color>
+    <color name="holo_green_light">@android:color/holo_green_light</color>
+    <color name="colorBackground">#ffffffe5</color>
+    <color name="colorContainer">#FFF6F7F9</color>
+    <color name="colorContainerOverlay">#ffb597b6</color>
+    <color name="textColorPrimary">#ff000000</color>
+    <color name="textColorSecondary">#ff000000</color>
+    <color name="textColorSecondaryLight">#FFD4F7FF</color>
+    <color name="colorSuccess">#ff57ffc8</color>
+    <color name="colorBackground2">#14000000</color>
+    <color name="offStateColor">@color/colorBackground</color>
+    <color name="offStateColor2">#1A000000</color>
+    <color name="offStateColor3">#40000000</color>
+    <color name="shadow">#14000000</color>
+    <color name="neumorph_outline_start">#FFE50000</color>
+    <color name="neumorph_outline_end">#FFFE97FF</color>
+    <color name="switch_track_layer">#B3FFFFFF</color>
+    <color name="splash_logo">@color/colorBackground</color>
+    <color name="switch_track_active">@color/colorAccent</color>
+    <color name="switch_track_inactive">#dddddd</color>
+    <color name="switch_thumb_active">@color/white</color>
+    <color name="switch_thumb_inactive">@color/white</color>
+</resources>
