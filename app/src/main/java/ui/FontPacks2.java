@@ -26,24 +26,24 @@ import java.util.Objects;
 
 public class FontPacks2 extends AppCompatActivity {
 
-    private static final String fontp1_KEY = "SaOverlaysFONTS1.overlay";
-    private static final String fontp2_KEY = "SaOverlaysFONTS2.overlay";
-    private static final String fontp4_KEY = "SaOverlaysFONTS3.overlay";
-    private static final String fontp4_KEY = "SaOverlaysFONTS4.overlay";
-    private static final String fontp5_KEY = "SaOverlaysFONTS5.overlay";
-    private static final String fontp6_KEY = "SaOverlaysFONTS6.overlay";
-    private static final String fontp7_KEY = "SaOverlaysFONTS7.overlay";
-    private static final String fontp8_KEY = "SaOverlaysFONTS8.overlay";
-    private static final String fontp9_KEY = "SaOverlaysFONTS9.overlay";
-    private static final String fontp10_KEY = "SaOverlaysFONTS10.overlay";
-    private static final String fontp11_KEY = "SaOverlaysFONTS11.overlay";
-    private static final String fontp12_KEY = "SaOverlaysFONTS12.overlay";
-    private static final String fontp13_KEY = "SaOverlaysFONTS13.overlay";
-    private static final String fontp14_KEY = "SaOverlaysFONTS14.overlay";
-    private static final String fontp15_KEY = "SaOverlaysFONTS15.overlay";
-    private static final String fontp16_KEY = "SaOverlaysFONTS16.overlay";
-    private static final String fontp17_KEY = "SaOverlaysFONTS17.overlay";
-    private static final String fontp18_KEY = "SaOverlaysFONTS18.overlay";
+    private static final String fontp1_KEY = "SaOverlaysFONTS#1.overlay";
+    private static final String fontp2_KEY = "SaOverlaysFONTS#2.overlay";
+    private static final String fontp4_KEY = "SaOverlaysFONTS#3.overlay";
+    private static final String fontp4_KEY = "SaOverlaysFONTS#4.overlay";
+    private static final String fontp5_KEY = "SaOverlaysFONTS#5.overlay";
+    private static final String fontp6_KEY = "SaOverlaysFONTS#6.overlay";
+    private static final String fontp7_KEY = "SaOverlaysFONTS#7.overlay";
+    private static final String fontp8_KEY = "SaOverlaysFONTS#8.overlay";
+    private static final String fontp9_KEY = "SaOverlaysFONTS#9.overlay";
+    private static final String fontp10_KEY = "SaOverlaysFONTS#10.overlay";
+    private static final String fontp11_KEY = "SaOverlaysFONTS#11.overlay";
+    private static final String fontp12_KEY = "SaOverlaysFONTS#12.overlay";
+    private static final String fontp13_KEY = "SaOverlaysFONTS#13.overlay";
+    private static final String fontp14_KEY = "SaOverlaysFONTS#14.overlay";
+    private static final String fontp15_KEY = "SaOverlaysFONTS#15.overlay";
+    private static final String fontp16_KEY = "SaOverlaysFONTS#16.overlay";
+    private static final String fontp17_KEY = "SaOverlaysFONTS#17.overlay";
+    private static final String fontp18_KEY = "SaOverlaysFONTS#18.overlay";
 
     LinearLayout[] Container;
     LinearLayout fontp1Container, fontp2Container, fontp4Container, fontp4Container, fontp5Container, fontp6Container, fontp7Container, fontp8Container, fontp9Container, fontp10Container, fontp11Container, fontp12Container, fontp13Container, fontp14Container, fontp15Container, fontp16Container, fontp17Container, fontp18Container;
@@ -413,7 +413,7 @@ public class FontPacks2 extends AppCompatActivity {
 
     // Function to change applied pack's bg
     private void checkIfApplied(LinearLayout layout, int icon) {
-        if (PrefConfig.loadPrefBool(Nebula.getAppContext(), "SaOverlaysFONTS" + icon + ".overlay")) {
+        if (PrefConfig.loadPrefBool(Nebula.getAppContext(), "SaOverlaysFONTS#" + icon + ".overlay")) {
             background(layout.getId(), R.drawable.container_selected);
         } else {
             background(layout.getId(), R.drawable.container);
