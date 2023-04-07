@@ -33,7 +33,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:contentDescription="@string/fontm_logo"
+                    android:contentDescription="@string/nebula_logo"
                     android:foreground="@drawable/ic_launcher_fg" />
 
             </FrameLayout>
