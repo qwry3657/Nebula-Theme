@@ -5,7 +5,7 @@
     android:layout_height="180dp"
     android:background="@color/transparent"
     android:fitsSystemWindows="true"
-    android:theme="@style/Theme.Font_Manager">
+    android:theme="@style/Theme.Nebula">
 
     <com.google.android.material.appbar.CollapsingToolbarLayout
         android:id="@+id/collapsing_toolbar"
