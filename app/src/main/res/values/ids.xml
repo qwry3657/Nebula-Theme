@@ -9,85 +9,85 @@
     <item name="home_bn" type="id" />
     
         <!-- Icon Pack List -->
-    <item name="sa1_container" type="id" />
-    <item name="sa1_enable" type="id" />
-    <item name="sa1_disable" type="id" />
+    <item name="fontp1_container" type="id" />
+    <item name="fontp1_enable" type="id" />
+    <item name="fontp1_disable" type="id" />
     
-    <item name="sa2_container" type="id" />
-    <item name="sa2_enable" type="id" />
-    <item name="sa2_disable" type="id" />
+    <item name="fontp2_container" type="id" />
+    <item name="fontp2_enable" type="id" />
+    <item name="fontp2_disable" type="id" />
     
-    <item name="sa3_container" type="id" />
-    <item name="sa3_enable" type="id" />
-    <item name="sa3_disable" type="id" />
+    <item name="fontp3_container" type="id" />
+    <item name="fontp3_enable" type="id" />
+    <item name="fontp3_disable" type="id" />
     
-    <item name="sa4_container" type="id" />
-    <item name="sa4_enable" type="id" />
-    <item name="sa4_disable" type="id" />
+    <item name="fontp4_container" type="id" />
+    <item name="fontp4_enable" type="id" />
+    <item name="fontp4_disable" type="id" />
     
-    <item name="sa5_container" type="id" />
-    <item name="sa5_enable" type="id" />
-    <item name="sa5_disable" type="id" />
+    <item name="fontp5_container" type="id" />
+    <item name="fontp5_enable" type="id" />
+    <item name="fontp5_disable" type="id" />
     
-    <item name="sa6_container" type="id" />
-    <item name="sa6_enable" type="id" />
-    <item name="sa6_disable" type="id" />
+    <item name="fontp6_container" type="id" />
+    <item name="fontp6_enable" type="id" />
+    <item name="fontp6_disable" type="id" />
     
-    <item name="sa7_container" type="id" />
-    <item name="sa7_enable" type="id" />
-    <item name="sa7_disable" type="id" />
+    <item name="fontp7_container" type="id" />
+    <item name="fontp7_enable" type="id" />
+    <item name="fontp7_disable" type="id" />
     
-    <item name="sa8_container" type="id" />
-    <item name="sa8_enable" type="id" />
-    <item name="sa8_disable" type="id" />
+    <item name="fontp8_container" type="id" />
+    <item name="fontp8_enable" type="id" />
+    <item name="fontp8_disable" type="id" />
     
-    <item name="sa9_container" type="id" />
-    <item name="sa9_enable" type="id" />
-    <item name="sa9_disable" type="id" />
+    <item name="fontp9_container" type="id" />
+    <item name="fontp9_enable" type="id" />
+    <item name="fontp9_disable" type="id" />
     
-    <item name="sa10_container" type="id" />
-    <item name="sa10_enable" type="id" />
-    <item name="sa10_disable" type="id" />
+    <item name="fontp10_container" type="id" />
+    <item name="fontp10_enable" type="id" />
+    <item name="fontp10_disable" type="id" />
     
-    <item name="sa11_container" type="id" />
-    <item name="sa11_enable" type="id" />
-    <item name="sa11_disable" type="id" />
+    <item name="fontp11_container" type="id" />
+    <item name="fontp11_enable" type="id" />
+    <item name="fontp11_disable" type="id" />
     
-    <item name="sa12_container" type="id" />
-    <item name="sa12_enable" type="id" />
-    <item name="sa12_disable" type="id" />
+    <item name="fontp12_container" type="id" />
+    <item name="fontp12_enable" type="id" />
+    <item name="fontp12_disable" type="id" />
     
-    <item name="sa13_container" type="id" />
-    <item name="sa13_enable" type="id" />
-    <item name="sa13_disable" type="id" />
+    <item name="fontp13_container" type="id" />
+    <item name="fontp13_enable" type="id" />
+    <item name="fontp13_disable" type="id" />
     
-    <item name="sa14_container" type="id" />
-    <item name="sa14_enable" type="id" />
-    <item name="sa14_disable" type="id" />
+    <item name="fontp14_container" type="id" />
+    <item name="fontp14_enable" type="id" />
+    <item name="fontp14_disable" type="id" />
     
-    <item name="sa15_container" type="id" />
-    <item name="sa15_enable" type="id" />
-    <item name="sa15_disable" type="id" />
+    <item name="fontp15_container" type="id" />
+    <item name="fontp15_enable" type="id" />
+    <item name="fontp15_disable" type="id" />
     
-    <item name="sa16_container" type="id" />
-    <item name="sa16_enable" type="id" />
-    <item name="sa16_disable" type="id" />
+    <item name="fontp16_container" type="id" />
+    <item name="fontp16_enable" type="id" />
+    <item name="fontp16_disable" type="id" />
     
-    <item name="sa17_container" type="id" />
-    <item name="sa17_enable" type="id" />
-    <item name="sa17_disable" type="id" />
+    <item name="fontp17_container" type="id" />
+    <item name="fontp17_enable" type="id" />
+    <item name="fontp17_disable" type="id" />
     
-    <item name="sa18_container" type="id" />
-    <item name="sa18_enable" type="id" />
-    <item name="sa18_disable" type="id" />
+    <item name="fontp18_container" type="id" />
+    <item name="fontp18_enable" type="id" />
+    <item name="fontp18_disable" type="id" />
     
-    <item name="sa19_container" type="id" />
-    <item name="sa19_enable" type="id" />
-    <item name="sa19_disable" type="id" />
+    <item name="fontp19_container" type="id" />
+    <item name="fontp19_enable" type="id" />
+    <item name="fontp19_disable" type="id" />
     
-    <item name="sa20_container" type="id" />
-    <item name="sa20_enable" type="id" />
-    <item name="sa20_disable" type="id" />
+    <item name="fontp20_container" type="id" />
+    <item name="fontp20_enable" type="id" />
+    <item name="fontp20_disable" type="id" />
     
     <!-- Media Player Icon List -->
     <item name="poweramp" type="id" />
