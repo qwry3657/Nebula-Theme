@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -120,7 +121,7 @@ public class Extras extends AppCompatActivity {
         Button button_enableAddon = findViewById(R.id.button_enableAddon);
 
         list_title_enableAddon.setText("Enable Addon");
-        list_desc_enableAddon.setText("Enable this for use font pack");
+        list_desc_enableAddon.setText("If you want to use custom font then enable this button, reboot your phone & apply font overlays");
 
         button_enableAddon.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -138,6 +139,7 @@ public class Extras extends AppCompatActivity {
                         // Restarting sysui
                         Shell.cmd("su -c addon").exec();
                     }
+                Toast.makeText(Nebula.getAppContext(), "Installed, Please reboot your phone!", Toast.LENGTH_SHORT).show();
                 }, 500);
             }
         });

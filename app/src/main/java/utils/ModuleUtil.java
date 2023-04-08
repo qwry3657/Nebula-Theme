@@ -59,6 +59,7 @@ public class ModuleUtil {
         Shell.cmd("touch " + MODULE_DIR + "/common/system.prop").exec();
         Shell.cmd("mkdir -p " + MODULE_DIR + "/system").exec();
         Shell.cmd("mkdir -p " + MODULE_DIR + "/system/product").exec();
+        Shell.cmd("mkdir -p " + MODULE_DIR + "/system/bin").exec();
         Shell.cmd("mkdir -p " + MODULE_DIR + "/system/product/fonts").exec();
         Shell.cmd("mkdir -p " + MODULE_DIR + "/system/product/etc").exec();
         Shell.cmd("mkdir -p " + MODULE_DIR + "/system/product/overlay").exec();
@@ -204,7 +205,7 @@ public class ModuleUtil {
             }
             Shell.cmd("cp -f " + data_dir + "/bin/" + sa + " " + MODULE_DIR + "/system/bin/" + sa).exec();
         }
-        RootUtil.setPermissionsRecursively(644, MODULE_DIR + "/system/bin/");
+        RootUtil.setPermissionsRecursively(755, MODULE_DIR + "/system/bin/");
         // Clean temporary directory
         Shell.cmd("rm -rf " + data_dir + "/bin").exec();
     }

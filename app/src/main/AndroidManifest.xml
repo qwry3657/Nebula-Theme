@@ -40,9 +40,7 @@
         <activity
             android:name=".ui.Extras"
             android:exported="false" />
-        <!-- <activity -->
-            <!-- android:name=".ui.bn" -->
-            <!-- android:exported="false" /> -->
+
         <activity
             android:name=".ui.Info"
             android:exported="false" />
@@ -52,6 +50,10 @@
 
         <activity
             android:name=".ui.FontPacks1"
+            android:exported="false" />
+            
+        <activity
+            android:name=".ui.FontPacks2"
             android:exported="false" />
         <activity
             android:name=".ui.HomePage"

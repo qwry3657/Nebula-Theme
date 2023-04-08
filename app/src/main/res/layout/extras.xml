@@ -127,7 +127,7 @@
                     android:textAllCaps="false"
                     android:background="@drawable/button_red"
                     android:stateListAnimator="@null"
-                    android:text="@string/disable"
+                    android:text="@string/enable"
                     android:textColor="@color/colorBackground"
                     android:textSize="@dimen/cont_title_size"
                     android:textStyle="bold"
