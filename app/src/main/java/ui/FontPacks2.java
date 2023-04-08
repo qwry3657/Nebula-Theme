@@ -392,7 +392,7 @@ public class FontPacks2 extends AppCompatActivity {
     private void disable_others(String pack) {
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp1_KEY, pack.equals(fontp1_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp2_KEY, pack.equals(fontp2_KEY));
-        PrefConfig.savePrefBool(Nebula.getAppContext(), fontp_KEY, pack.equals(fontp3_KEY));
+        PrefConfig.savePrefBool(Nebula.getAppContext(), fontp3_KEY, pack.equals(fontp3_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp4_KEY, pack.equals(fontp4_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp5_KEY, pack.equals(fontp5_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp6_KEY, pack.equals(fontp6_KEY));

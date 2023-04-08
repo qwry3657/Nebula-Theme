@@ -2,6 +2,7 @@
 <resources>
     <!-- Home Page List Items -->
     <item name="home_fontPack1" type="id" />
+    <item name="home_fontPack2" type="id" />
     <item name="home_mediaPlayer" type="id" />
     <item name="home_progressBar" type="id" />
     <item name="home_info" type="id" />
