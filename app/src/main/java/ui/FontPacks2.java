@@ -28,7 +28,7 @@ public class FontPacks2 extends AppCompatActivity {
 
     private static final String fontp1_KEY = "SaOverlaysFONTS#1.overlay";
     private static final String fontp2_KEY = "SaOverlaysFONTS#2.overlay";
-    private static final String fontp4_KEY = "SaOverlaysFONTS#3.overlay";
+    private static final String fontp3_KEY = "SaOverlaysFONTS#3.overlay";
     private static final String fontp4_KEY = "SaOverlaysFONTS#4.overlay";
     private static final String fontp5_KEY = "SaOverlaysFONTS#5.overlay";
     private static final String fontp6_KEY = "SaOverlaysFONTS#6.overlay";
@@ -46,8 +46,8 @@ public class FontPacks2 extends AppCompatActivity {
     private static final String fontp18_KEY = "SaOverlaysFONTS#18.overlay";
 
     LinearLayout[] Container;
-    LinearLayout fontp1Container, fontp2Container, fontp4Container, fontp4Container, fontp5Container, fontp6Container, fontp7Container, fontp8Container, fontp9Container, fontp10Container, fontp11Container, fontp12Container, fontp13Container, fontp14Container, fontp15Container, fontp16Container, fontp17Container, fontp18Container;
-    Button fontp1_Enable, fontp1_Disable, fontp2_Enable, fontp2_Disable, fontp4_Enable, fontp4_Disable, fontp4_Enable, fontp4_Disable, fontp5_Enable, fontp5_Disable, fontp6_Enable, fontp6_Disable, fontp7_Enable, fontp7_Disable, fontp8_Enable, fontp8_Disable, fontp9_Enable, fontp9_Disable, fontp10_Enable, fontp10_Disable, fontp11_Enable, fontp11_Disable, fontp12_Enable, fontp12_Disable, fontp13_Enable, fontp13_Disable, fontp14_Enable, fontp14_Disable, fontp15_Enable, fontp15_Disable, fontp16_Enable, fontp16_Disable, fontp17_Enable, fontp17_Disable, fontp18_Enable, fontp18_Disable;
+    LinearLayout fontp1Container, fontp2Container, fontp3Container, fontp4Container, fontp5Container, fontp6Container, fontp7Container, fontp8Container, fontp9Container, fontp10Container, fontp11Container, fontp12Container, fontp13Container, fontp14Container, fontp15Container, fontp16Container, fontp17Container, fontp18Container;
+    Button fontp1_Enable, fontp1_Disable, fontp2_Enable, fontp2_Disable, fontp3_Enable, fontp3_Disable, fontp4_Enable, fontp4_Disable, fontp5_Enable, fontp5_Disable, fontp6_Enable, fontp6_Disable, fontp7_Enable, fontp7_Disable, fontp8_Enable, fontp8_Disable, fontp9_Enable, fontp9_Disable, fontp10_Enable, fontp10_Disable, fontp11_Enable, fontp11_Disable, fontp12_Enable, fontp12_Disable, fontp13_Enable, fontp13_Disable, fontp14_Enable, fontp14_Disable, fontp15_Enable, fontp15_Disable, fontp16_Enable, fontp16_Disable, fontp17_Enable, fontp17_Disable, fontp18_Enable, fontp18_Disable;
     private ViewGroup container;
     LoadingDialog loadingDialog;
 
@@ -74,7 +74,7 @@ public class FontPacks2 extends AppCompatActivity {
         // Font.add items in list
         addItem(R.id.fontp1_container, "Fucek", "Tap to enable/desable font.", R.id.fontp1_enable, R.id.fontp1_disable);
         addItem(R.id.fontp2_container, "Nothing", "Tap to enable/desable font.", R.id.fontp2_enable, R.id.fontp2_disable);
-        addItem(R.id.fontp4_container, "Noto Serif", "Tap to enable/desable font.", R.id.fontp4_enable, R.id.fontp4_disable);
+        addItem(R.id.fontp3_container, "Noto Serif", "Tap to enable/desable font.", R.id.fontp3_enable, R.id.fontp3_disable);
         addItem(R.id.fontp4_container, "Linnote Bold", "Tap to enable/desable font.", R.id.fontp4_enable, R.id.fontp4_disable);
         addItem(R.id.fontp5_container, "Tinkerbell", "Tap to enable/desable font.", R.id.fontp5_enable, R.id.fontp5_disable);
         addItem(R.id.fontp6_container, "Samsung One", "Tap to enable/desable font.", R.id.fontp6_enable, R.id.fontp6_disable);
@@ -101,10 +101,10 @@ public class FontPacks2 extends AppCompatActivity {
         fontp2_Enable = findViewById(R.id.fontp2_enable);
         fontp2_Disable = findViewById(R.id.fontp2_disable);
 
-        // Declaration of fontp4
-        fontp4Container = findViewById(R.id.fontp4_container);
-        fontp4_Enable = findViewById(R.id.fontp4_enable);
-        fontp4_Disable = findViewById(R.id.fontp4_disable);
+        // Declaration of fontp3
+        fontp3Container = findViewById(R.id.fontp3_container);
+        fontp3_Enable = findViewById(R.id.fontp3_enable);
+        fontp3_Disable = findViewById(R.id.fontp3_disable);
 
         // Declaration of fontp4
         fontp4Container = findViewById(R.id.fontp4_container);
@@ -182,12 +182,12 @@ public class FontPacks2 extends AppCompatActivity {
         fontp18_Disable = findViewById(R.id.fontp18_disable);
         
         // List of Icon Pack
-        Container = new LinearLayout[]{fontp1Container, fontp2Container, fontp4Container, fontp4Container, fontp5Container, fontp6Container, fontp7Container, fontp8Container, fontp9Container, fontp10Container, fontp11Container, fontp12Container, fontp13Container, fontp14Container, fontp15Container, fontp16Container, fontp17Container, fontp18Container};
+        Container = new LinearLayout[]{fontp1Container, fontp2Container, fontp3Container, fontp4Container, fontp5Container, fontp6Container, fontp7Container, fontp8Container, fontp9Container, fontp10Container, fontp11Container, fontp12Container, fontp13Container, fontp14Container, fontp15Container, fontp16Container, fontp17Container, fontp18Container};
 
         // Enable onClick event
         enableOnClickListener(fontp1Container, fontp1_Enable, fontp1_Disable, fontp1_KEY, 1);
         enableOnClickListener(fontp2Container, fontp2_Enable, fontp2_Disable, fontp2_KEY, 2);
-        enableOnClickListener(fontp4Container, fontp4_Enable, fontp4_Disable, fontp4_KEY, 3);
+        enableOnClickListener(fontp3Container, fontp3_Enable, fontp3_Disable, fontp3_KEY, 3);
         enableOnClickListener(fontp4Container, fontp4_Enable, fontp4_Disable, fontp4_KEY, 4);
         enableOnClickListener(fontp5Container, fontp5_Enable, fontp5_Disable, fontp5_KEY, 5);
         enableOnClickListener(fontp6Container, fontp6_Enable, fontp6_Disable, fontp6_KEY, 6);
@@ -223,9 +223,9 @@ public class FontPacks2 extends AppCompatActivity {
                 } else if (linearLayout == fontp2Container) {
                     fontp2_Enable.setVisibility(View.GONE);
                     fontp2_Disable.setVisibility(View.GONE);
-                } else if (linearLayout == fontp4Container) {
-                    fontp4_Enable.setVisibility(View.GONE);
-                    fontp4_Disable.setVisibility(View.GONE);
+                } else if (linearLayout == fontp3Container) {
+                    fontp3_Enable.setVisibility(View.GONE);
+                    fontp3_Disable.setVisibility(View.GONE);
                  
                 } else if (linearLayout == fontp4Container) {
                     fontp4_Enable.setVisibility(View.GONE);
@@ -282,7 +282,7 @@ public class FontPacks2 extends AppCompatActivity {
     private void refreshBackground() {
         checkIfApplied(fontp1Container, 1);
         checkIfApplied(fontp2Container, 2);
-        checkIfApplied(fontp4Container, 3);
+        checkIfApplied(fontp3Container, 3);
         
         checkIfApplied(fontp4Container, 4);
         checkIfApplied(fontp5Container, 5);
@@ -392,7 +392,7 @@ public class FontPacks2 extends AppCompatActivity {
     private void disable_others(String pack) {
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp1_KEY, pack.equals(fontp1_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp2_KEY, pack.equals(fontp2_KEY));
-        PrefConfig.savePrefBool(Nebula.getAppContext(), fontp4_KEY, pack.equals(fontp4_KEY));
+        PrefConfig.savePrefBool(Nebula.getAppContext(), fontp_KEY, pack.equals(fontp3_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp4_KEY, pack.equals(fontp4_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp5_KEY, pack.equals(fontp5_KEY));
         PrefConfig.savePrefBool(Nebula.getAppContext(), fontp6_KEY, pack.equals(fontp6_KEY));
