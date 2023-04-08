@@ -138,8 +138,9 @@ public class Extras extends AppCompatActivity {
                         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
                         // Restarting sysui
                         Shell.cmd("su -c addon").exec();
+                    Toast.makeText(Nebula.getAppContext(), "Installed, Please reboot your phone!", Toast.LENGTH_SHORT).show();
+                                        
                     }
-                Toast.makeText(Nebula.getAppContext(), "Installed, Please reboot your phone!", Toast.LENGTH_SHORT).show();
                 }, 500);
             }
         });
