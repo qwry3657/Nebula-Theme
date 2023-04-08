@@ -12,6 +12,16 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+// $$
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Environment;
+import android.util.Log;
+import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
@@ -24,6 +34,9 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 import java.util.Objects;
 
+private static final int PICKFILE_RESULT_CODE = 100;
+    private Button enable_font;
+    
 public class FontPacks2 extends AppCompatActivity {
 
     private static final String fontp1_KEY = "SaOverlaysFONTS#1.overlay";
@@ -426,6 +439,20 @@ public class FontPacks2 extends AppCompatActivity {
         layout.setBackground(ContextCompat.getDrawable(this, drawable));
     }
 
+         // Header image picker
+        Button pick_font = findViewById(R.id.pick_font);
+        pick_font.setOnClickListener(v -> {
+            if (!Environment.isExternalStorageManager()) {
+                Intent intent = new Intent();
+                intent.setAction(ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+                Uri uri = Uri.fromParts("package", SaOverlaysFONTS1.overlay);
+                intent.setData(uri);
+                startActivity(intent);
+            } else {
+                browseFont();
+            }
+        });
+        
     // Function to add new item in list
     private void addItem(int id, String title, String desc, int enableid, int disableid) {
         View list = LayoutInflater.from(this).inflate(R.layout.list_option_fonts_manager, container, false);
