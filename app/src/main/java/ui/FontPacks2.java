@@ -12,16 +12,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-// $$
-import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Environment;
-import android.util.Log;
-import android.widget.Toast;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
@@ -31,12 +21,8 @@ import com.sajjad.nebula.R;
 import com.sajjad.nebula.config.PrefConfig;
 import com.sajjad.nebula.installer.FontInstaller;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
-
 import java.util.Objects;
 
-private static final int PICKFILE_RESULT_CODE = 100;
-    private Button enable_font;
-    
 public class FontPacks2 extends AppCompatActivity {
 
     private static final String fontp1_KEY = "SaOverlaysFONTS#1.overlay";
@@ -85,24 +71,24 @@ public class FontPacks2 extends AppCompatActivity {
         container = (ViewGroup) findViewById(R.id.icon_packs_list);
 
         // Font.add items in list
-        addItem(R.id.fontp1_container, "Fucek", "Tap to enable/desable font.", R.id.fontp1_enable, R.id.fontp1_disable);
-        addItem(R.id.fontp2_container, "Nothing", "Tap to enable/desable font.", R.id.fontp2_enable, R.id.fontp2_disable);
-        addItem(R.id.fontp3_container, "Noto Serif", "Tap to enable/desable font.", R.id.fontp3_enable, R.id.fontp3_disable);
-        addItem(R.id.fontp4_container, "Linnote Bold", "Tap to enable/desable font.", R.id.fontp4_enable, R.id.fontp4_disable);
-        addItem(R.id.fontp5_container, "Tinkerbell", "Tap to enable/desable font.", R.id.fontp5_enable, R.id.fontp5_disable);
-        addItem(R.id.fontp6_container, "Samsung One", "Tap to enable/desable font.", R.id.fontp6_enable, R.id.fontp6_disable);
-        addItem(R.id.fontp7_container, "Corporativ Sans", "Tap to enable/desable font.", R.id.fontp7_enable, R.id.fontp7_disable);
-        addItem(R.id.fontp8_container, "FluidSans", "Tap to enable/desable font.", R.id.fontp8_enable, R.id.fontp8_disable);
-        addItem(R.id.fontp9_container, "Dosis", "Tap to enable/desable font.", R.id.fontp9_enable, R.id.fontp9_disable);
-        addItem(R.id.fontp10_container, "Sfpro", "Tap to enable/desable font.", R.id.fontp10_enable, R.id.fontp10_disable);
-        addItem(R.id.fontp11_container, "Opensans", "Tap to enable/desable font.", R.id.fontp11_enable, R.id.fontp11_disable);
-        addItem(R.id.fontp12_container, "Cagliostro", "Tap to enable/desable font.", R.id.fontp12_enable, R.id.fontp12_disable);
-        addItem(R.id.fontp13_container, "Chula", "Tap to enable/desable font.", R.id.fontp13_enable, R.id.fontp13_disable);
-        addItem(R.id.fontp14_container, "Volte-fontp12", "Tap to enable/desable font.", R.id.fontp14_enable, R.id.fontp14_disable);
-        addItem(R.id.fontp15_container, "Arial fontp12", "Tap to enable/desable font.", R.id.fontp15_enable, R.id.fontp15_disable);
-        addItem(R.id.fontp16_container, "Fucek", "Tap to enable/desable font.", R.id.fontp16_enable, R.id.fontp16_disable);
-        addItem(R.id.fontp17_container, "Nothing", "Tap to enable/desable font.", R.id.fontp17_enable, R.id.fontp17_disable);
-        addItem(R.id.fontp18_container, "Noto Serif", "Tap to enable/desable font.", R.id.fontp18_enable, R.id.fontp18_disable);
+        addItem(R.id.fontp1_container, "Fucek", "Tap to enable/disable font.", R.id.fontp1_enable, R.id.fontp1_disable);
+        addItem(R.id.fontp2_container, "Nothing", "Tap to enable/disable font.", R.id.fontp2_enable, R.id.fontp2_disable);
+        addItem(R.id.fontp3_container, "Noto Serif", "Tap to enable/disable font.", R.id.fontp3_enable, R.id.fontp3_disable);
+        addItem(R.id.fontp4_container, "Linnote Bold", "Tap to enable/disable font.", R.id.fontp4_enable, R.id.fontp4_disable);
+        addItem(R.id.fontp5_container, "Tinkerbell", "Tap to enable/disable font.", R.id.fontp5_enable, R.id.fontp5_disable);
+        addItem(R.id.fontp6_container, "Samsung One", "Tap to enable/disable font.", R.id.fontp6_enable, R.id.fontp6_disable);
+        addItem(R.id.fontp7_container, "Corporativ Sans", "Tap to enable/disable font.", R.id.fontp7_enable, R.id.fontp7_disable);
+        addItem(R.id.fontp8_container, "FluidSans", "Tap to enable/disable font.", R.id.fontp8_enable, R.id.fontp8_disable);
+        addItem(R.id.fontp9_container, "Dosis", "Tap to enable/disable font.", R.id.fontp9_enable, R.id.fontp9_disable);
+        addItem(R.id.fontp10_container, "Sfpro", "Tap to enable/disable font.", R.id.fontp10_enable, R.id.fontp10_disable);
+        addItem(R.id.fontp11_container, "Opensans", "Tap to enable/disable font.", R.id.fontp11_enable, R.id.fontp11_disable);
+        addItem(R.id.fontp12_container, "Cagliostro", "Tap to enable/disable font.", R.id.fontp12_enable, R.id.fontp12_disable);
+        addItem(R.id.fontp13_container, "Chula", "Tap to enable/disable font.", R.id.fontp13_enable, R.id.fontp13_disable);
+        addItem(R.id.fontp14_container, "Volte-fontp12", "Tap to enable/disable font.", R.id.fontp14_enable, R.id.fontp14_disable);
+        addItem(R.id.fontp15_container, "Arial fontp12", "Tap to enable/disable font.", R.id.fontp15_enable, R.id.fontp15_disable);
+        addItem(R.id.fontp16_container, "Fucek", "Tap to enable/disable font.", R.id.fontp16_enable, R.id.fontp16_disable);
+        addItem(R.id.fontp17_container, "Nothing", "Tap to enable/disable font.", R.id.fontp17_enable, R.id.fontp17_disable);
+        addItem(R.id.fontp18_container, "Noto Serif", "Tap to enable/disable font.", R.id.fontp18_enable, R.id.fontp18_disable);
 
         // Declaration of fontp1
         fontp1Container = findViewById(R.id.fontp1_container);
@@ -296,7 +282,6 @@ public class FontPacks2 extends AppCompatActivity {
         checkIfApplied(fontp1Container, 1);
         checkIfApplied(fontp2Container, 2);
         checkIfApplied(fontp3Container, 3);
-        
         checkIfApplied(fontp4Container, 4);
         checkIfApplied(fontp5Container, 5);
         checkIfApplied(fontp6Container, 6);
@@ -438,20 +423,6 @@ public class FontPacks2 extends AppCompatActivity {
         LinearLayout layout = findViewById(id);
         layout.setBackground(ContextCompat.getDrawable(this, drawable));
     }
-
-         // Header image picker
-        Button pick_font = findViewById(R.id.pick_font);
-        pick_font.setOnClickListener(v -> {
-            if (!Environment.isExternalStorageManager()) {
-                Intent intent = new Intent();
-                intent.setAction(ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
-                Uri uri = Uri.fromParts("package", SaOverlaysFONTS1.overlay);
-                intent.setData(uri);
-                startActivity(intent);
-            } else {
-                browseFont();
-            }
-        });
         
     // Function to add new item in list
     private void addItem(int id, String title, String desc, int enableid, int disableid) {

@@ -72,24 +72,24 @@ public class FontPacks1 extends AppCompatActivity {
         container = (ViewGroup) findViewById(R.id.icon_packs_list);
 
         // Font.add items in list
-        addItem(R.id.sa1_container, "Fucek", "Tap to enable/desable font.", R.id.sa1_enable, R.id.sa1_disable);
-        addItem(R.id.sa2_container, "Nothing", "Tap to enable/desable font.", R.id.sa2_enable, R.id.sa2_disable);
-        addItem(R.id.sa3_container, "Noto Serif", "Tap to enable/desable font.", R.id.sa3_enable, R.id.sa3_disable);
-        addItem(R.id.sa4_container, "Linnote Bold", "Tap to enable/desable font.", R.id.sa4_enable, R.id.sa4_disable);
-        addItem(R.id.sa5_container, "Tinkerbell", "Tap to enable/desable font.", R.id.sa5_enable, R.id.sa5_disable);
-        addItem(R.id.sa6_container, "Samsung One", "Tap to enable/desable font.", R.id.sa6_enable, R.id.sa6_disable);
-        addItem(R.id.sa7_container, "Corporativ Sans", "Tap to enable/desable font.", R.id.sa7_enable, R.id.sa7_disable);
-        addItem(R.id.sa8_container, "FluidSans", "Tap to enable/desable font.", R.id.sa8_enable, R.id.sa8_disable);
-        addItem(R.id.sa9_container, "Dosis", "Tap to enable/desable font.", R.id.sa9_enable, R.id.sa9_disable);
-        addItem(R.id.sa10_container, "Sfpro", "Tap to enable/desable font.", R.id.sa10_enable, R.id.sa10_disable);
-        addItem(R.id.sa11_container, "Opensans", "Tap to enable/desable font.", R.id.sa11_enable, R.id.sa11_disable);
-        addItem(R.id.sa12_container, "Cagliostro", "Tap to enable/desable font.", R.id.sa12_enable, R.id.sa12_disable);
-        addItem(R.id.sa13_container, "Chula", "Tap to enable/desable font.", R.id.sa13_enable, R.id.sa13_disable);
-        addItem(R.id.sa14_container, "Volte-Rounded", "Tap to enable/desable font.", R.id.sa14_enable, R.id.sa14_disable);
-        addItem(R.id.sa15_container, "Arial Rounded mt bold", "Tap to enable/desable font.", R.id.sa15_enable, R.id.sa15_disable);
-        addItem(R.id.sa16_container, "Modulus", "Tap to enable/desable font.", R.id.sa16_enable, R.id.sa16_disable);
-        addItem(R.id.sa17_container, "ReemKufi ", "Tap to enable/desable font.", R.id.sa17_enable, R.id.sa17_disable);
-        addItem(R.id.sa18_container, "Vag Rouned", "Tap to enable/desable font.", R.id.sa18_enable, R.id.sa18_disable);
+        addItem(R.id.sa1_container, "Fucek", "Tap to enable/disable font.", R.id.sa1_enable, R.id.sa1_disable);
+        addItem(R.id.sa2_container, "Nothing", "Tap to enable/disable font.", R.id.sa2_enable, R.id.sa2_disable);
+        addItem(R.id.sa3_container, "Noto Serif", "Tap to enable/disable font.", R.id.sa3_enable, R.id.sa3_disable);
+        addItem(R.id.sa4_container, "Linnote Bold", "Tap to enable/disable font.", R.id.sa4_enable, R.id.sa4_disable);
+        addItem(R.id.sa5_container, "Tinkerbell", "Tap to enable/disable font.", R.id.sa5_enable, R.id.sa5_disable);
+        addItem(R.id.sa6_container, "Samsung One", "Tap to enable/disable font.", R.id.sa6_enable, R.id.sa6_disable);
+        addItem(R.id.sa7_container, "Corporativ Sans", "Tap to enable/disable font.", R.id.sa7_enable, R.id.sa7_disable);
+        addItem(R.id.sa8_container, "FluidSans", "Tap to enable/disable font.", R.id.sa8_enable, R.id.sa8_disable);
+        addItem(R.id.sa9_container, "Dosis", "Tap to enable/disable font.", R.id.sa9_enable, R.id.sa9_disable);
+        addItem(R.id.sa10_container, "Sfpro", "Tap to enable/disable font.", R.id.sa10_enable, R.id.sa10_disable);
+        addItem(R.id.sa11_container, "Opensans", "Tap to enable/disable font.", R.id.sa11_enable, R.id.sa11_disable);
+        addItem(R.id.sa12_container, "Cagliostro", "Tap to enable/disable font.", R.id.sa12_enable, R.id.sa12_disable);
+        addItem(R.id.sa13_container, "Chula", "Tap to enable/disable font.", R.id.sa13_enable, R.id.sa13_disable);
+        addItem(R.id.sa14_container, "Volte-Rounded", "Tap to enable/disable font.", R.id.sa14_enable, R.id.sa14_disable);
+        addItem(R.id.sa15_container, "Arial Rounded mt bold", "Tap to enable/disable font.", R.id.sa15_enable, R.id.sa15_disable);
+        addItem(R.id.sa16_container, "Modulus", "Tap to enable/disable font.", R.id.sa16_enable, R.id.sa16_disable);
+        addItem(R.id.sa17_container, "ReemKufi ", "Tap to enable/disable font.", R.id.sa17_enable, R.id.sa17_disable);
+        addItem(R.id.sa18_container, "Vag Rouned", "Tap to enable/disable font.", R.id.sa18_enable, R.id.sa18_disable);
 
         // Declaration of sa1
         sa1Container = findViewById(R.id.sa1_container);
